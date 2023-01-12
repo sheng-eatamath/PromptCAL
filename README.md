@@ -30,7 +30,7 @@ This is the official PyTorch implementation of "PromptCAL: Contrastive Affinity 
 
 Our experiments are based on benchmarks including: fine-grained datasets ([CUB-200](), [StanfordCars](), [Aircraft](), [Herbarium2019](https://www.kaggle.com/c/herbarium-2019-fgvc6)), generic datasets ([CIFAR](), [ImageNet-100]()).
 
-Note that we use the same dataset split as [GCD](https://github.com/sgvaze/generalized-category-discovery).
+Note that we use the same dataset split as [GCD](https://github.com/sgvaze/generalized-category-discovery). For ImageNet-100 dataset, we sample 100 classes adopted in this [issue](https://github.com/sgvaze/generalized-category-discovery/issues/12) from the original ImageNet-1k dataset into another folder and rename this dataset as `imagenet_100_gcd`.
 
 The dependency file of our model is `requirement.txt`
 
