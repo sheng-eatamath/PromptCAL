@@ -5,55 +5,7 @@ import os
 
 from copy import deepcopy
 from data.data_utils import subsample_instances
-# from data_utils import subsample_instances
-from config import imagenet_root, imagenet_gcd_root
-
-IN_SPLIT = ['n01443537', 'n01537544', 'n01631663', 'n01644373', 'n01692333', 
-            'n01729977', 'n01775062', 'n01873310', 'n01914609', 'n02028035', 
-            'n02033041', 'n02091635', 'n02097047', 'n02098105', 'n02105855', 
-            'n02106030', 'n02107142', 'n02107683', 'n02109525', 'n02110341', 
-            'n02110627', 'n02112350', 'n02112706', 'n02113186', 'n02113799', 
-            'n02114548', 'n02114855', 'n02120079', 'n02133161', 'n02137549', 
-            'n02138441', 'n02174001', 'n02219486', 'n02226429', 'n02256656', 
-            'n02268443', 'n02326432', 'n02480855', 'n02481823', 'n02504458', 
-            'n02514041', 'n02704792', 'n02747177', 'n02749479', 'n02804610', 
-            'n02869837', 'n02879718', 'n02978881', 'n02988304', 'n03017168', 
-            'n03026506', 'n03028079', 'n03045698', 'n03197337', 'n03337140', 
-            'n03372029', 'n03404251', 'n03417042', 'n03447447', 'n03450230', 
-            'n03461385', 'n03481172', 'n03534580', 'n03617480', 'n03706229', 
-            'n03710637', 'n03724870', 'n03729826', 'n03769881', 'n03792972', 
-            'n03873416', 'n03877845', 'n03899768', 'n03908714', 'n03982430', 
-            'n03991062', 'n03995372', 'n04070727', 'n04153751', 'n04154565', 
-            'n04200800', 'n04204238', 'n04229816', 'n04296562', 'n04317175', 
-            'n04442312', 'n04456115', 'n04487081', 'n04522168', 'n04591157', 
-            'n04596742', 'n06785654', 'n07579787', 'n07590611', 'n07768694', 
-            'n09229709', 'n10148035', 'n12144580', 'n13037406', 'n13052670']
-
-SPLIT_FILE = [
-    '/home/sheng/orca/data/ImageNet100_label_50_0.5.txt',
-    '/home/sheng/orca/data/ImageNet100_unlabel_50_0.5.txt',
-]
-
-def get_data_root(data_root):
-    if data_root=='imagenet_100':
-        return imagenet_root
-    elif data_root=='imagenet_100_gcd':
-        return imagenet_gcd_root
-    elif data_root=='imagenet_original_100':
-        return imagenet_original_root
-    else:
-        raise ValueError(f'data_root={data_root}')
-    return
-
-def read_split_file():
-    global SPLIT_FILE
-    with open(SPLIT_FILE[0], 'r') as f:
-        xl = list(filter(lambda x: len(x), f.read().split('\n')))
-        xl = list(map(lambda x: x.split(' ')[0].split('/')[1], xl))
-    with open(SPLIT_FILE[1], 'r') as f:
-        xu = list(filter(lambda x: len(x), f.read().split('\n')))
-        xu = list(map(lambda x: x.split(' ')[0].split('/')[1], xu))
-    return set(xl), set(xu)
+from config import imagenet_gcd_root
 
 class ImageNetBase(torchvision.datasets.ImageFolder):
 
