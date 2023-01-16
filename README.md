@@ -181,16 +181,16 @@ We release trained models at [checkpoints](https://drive.google.com/drive/folder
 
 | Setting        | Dataset      | Stage 1                                                      | Stage 2                                                      |
 | -------------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| GNCD           | CIFAR10      | [model](https://drive.google.com/drive/folders/1CA8TI8J2DAkzRIfuo2JRTzBPVcl7V__V?usp=share_link) | [model](https://drive.google.com/drive/folders/1CA8TI8J2DAkzRIfuo2JRTzBPVcl7V__V?usp=share_link) |
-| GNCD           | CIFAR100     | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=share_link) | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=share_link) |
-| GNCD           | ImageNet-100 | [model](https://drive.google.com/drive/folders/1RmRYEdWAERMFIjUGowzqE5rxXpS9ficP?usp=share_link) | [model](https://drive.google.com/drive/folders/1baPNDbcQ6sIlN40LP1AgkVbm8kx1nS4g?usp=share_link) |
-| GNCD           | CUB-200      | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=share_link) | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=share_link) |
-| GNCD           | StanfordCars | [model](https://drive.google.com/drive/folders/17mBaS4Geq3mh21RhJ8Mo5HVog_poOblE?usp=share_link) | [model](https://drive.google.com/drive/folders/17mBaS4Geq3mh21RhJ8Mo5HVog_poOblE?usp=share_link) |
-| GNCD           | Aircraft     | [model](https://drive.google.com/drive/folders/1BxuSO4r8F16L9tC4p4OAWQxAweElDy7U?usp=share_link) | [model](https://drive.google.com/drive/folders/1BxuSO4r8F16L9tC4p4OAWQxAweElDy7U?usp=share_link) |
-| GNCD           | Herbarium19  | [model](https://drive.google.com/drive/folders/1U_v4JCSZGKmn6X-f9Vp5iIfEM9z79WCt?usp=share_link) | [model](https://drive.google.com/drive/folders/1U_v4JCSZGKmn6X-f9Vp5iIfEM9z79WCt?usp=share_link) |
-| Inductive GNCD | CIFAR100     | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=share_link) | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=share_link) |
-| Inductive GNCD | CUB-200      | [model](https://drive.google.com/drive/folders/17mBaS4Geq3mh21RhJ8Mo5HVog_poOblE?usp=share_link) | [model](https://drive.google.com/drive/folders/17mBaS4Geq3mh21RhJ8Mo5HVog_poOblE?usp=share_link) |
-| Inductive GNCD | ImageNet-100 | [model](https://drive.google.com/drive/folders/1baPNDbcQ6sIlN40LP1AgkVbm8kx1nS4g?usp=share_link) | [model](https://drive.google.com/drive/folders/1baPNDbcQ6sIlN40LP1AgkVbm8kx1nS4g?usp=share_link) |
+| GNCD           | CIFAR10      | [model](https://drive.google.com/drive/folders/1a6SrtZkdZWvkuVRPg60bmTq20v2mRFiZ?usp=sharing) | [model](https://drive.google.com/drive/folders/1txuYiECLYYqM9JOo5JIGJ7hmJiqVriRk?usp=sharing) |
+| GNCD           | CIFAR100     | [model](https://drive.google.com/drive/folders/1dy4P2NHY2lnXJYSH2atAeEX9wDaFGUSL?usp=sharing) | [model](https://drive.google.com/drive/folders/1AzncvWgROYch_1Izdr52kaUyGAY17PEu?usp=sharing) |
+| GNCD           | ImageNet-100 | [model](https://drive.google.com/drive/folders/1RmRYEdWAERMFIjUGowzqE5rxXpS9ficP?usp=sharing) | [model](https://drive.google.com/drive/folders/1baPNDbcQ6sIlN40LP1AgkVbm8kx1nS4g?usp=sharing) |
+| GNCD           | CUB-200      | [model](https://drive.google.com/drive/folders/1LWNMgg3YnNnOEMnSsYDpJV56lrqdvty_?usp=sharing) | [model](https://drive.google.com/drive/folders/1bEKA102Bb5JvbGJ_3BvUrAOJANZksfsW?usp=sharing) |
+| GNCD           | StanfordCars | [model](https://drive.google.com/drive/folders/1CA8TI8J2DAkzRIfuo2JRTzBPVcl7V__V?usp=sharing) | [model](https://drive.google.com/drive/folders/147lJs2ioYTi5ZTnIMypQZDeGDwxA5e-5?usp=sharing) |
+| GNCD           | Aircraft     | [model](https://drive.google.com/drive/folders/1BxuSO4r8F16L9tC4p4OAWQxAweElDy7U?usp=sharing) | [model](https://drive.google.com/drive/folders/1-EiEOY2jfaxasz7DlABFpnZbuUcLYxBG?usp=sharing) |
+| GNCD           | Herbarium19  | [model](https://drive.google.com/drive/folders/1U_v4JCSZGKmn6X-f9Vp5iIfEM9z79WCt?usp=sharing) | [model](https://drive.google.com/drive/folders/12E9XNANJP2619Lg0b1qusZk9E-41Pve8?usp=sharing) |
+| Inductive GNCD | CIFAR100     | [model](https://drive.google.com/drive/folders/13gmbjlMUE8uWBK3r2tPAHf1e6Rv_YVrU?usp=sharing) | [model](https://drive.google.com/drive/folders/1mA1uFZ_Mqa076R6ygqHW5W_YE-bMYBR-?usp=sharing) |
+| Inductive GNCD | CUB-200      | [model](https://drive.google.com/drive/folders/17mBaS4Geq3mh21RhJ8Mo5HVog_poOblE?usp=sharing) | [model](https://drive.google.com/drive/folders/1HKgj5GcKyvo6qs7etkVcf-j8ZrVygtJT?usp=sharing) |
+| Inductive GNCD | ImageNet-100 | [model](https://drive.google.com/drive/folders/1g2hF_eHSPlqtRLdmkGQOknyI_nu0OeDP?usp=sharing) | [model](https://drive.google.com/drive/folders/1Y5rcp-dhqiVKbugMUtapWNWOkqSsTYlL?usp=sharing) |
 
 ## Acknowledgement
 
