@@ -1,4 +1,4 @@
-# PromptCAL for Generalized Novel Category Discovery (CVPR 2023)
+# PromptCAL for Generalized Novel Category Discovery (CVPR'23)
 
 This repo contains codes for our paper: [PromptCAL: Contrastive Affinity Learning via Auxiliary Prompts for Generalized Novel Category Discovery](https://arxiv.org/abs/2212.05590)
 
